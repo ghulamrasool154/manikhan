@@ -1,0 +1,79 @@
+.ProductDicsussion {
+
+    background: -webkit-linear-gradient(left, rgb(48, 96, 229) 0%, rgb(4, 142, 234) 45%, rgb(62, 224, 159) 100%);
+    padding: 0;
+}
+
+.pro-dis {
+    font-size: 32px;
+    line-height: 42px;
+    font-weight: bold;
+    color: #ffffff;
+    font-family: 'Josefin Sans', sans-serif;
+    text-align: right;
+}
+
+.wordpress-champion {
+    font-size: 48px;
+    line-height: 60px;
+    font-weight: bold;
+    color: #ffffff;
+    font-family: 'Josefin Sans', sans-serif;
+    text-align: left;
+}
+
+.col-width {
+    width: 50% !important;
+}
+
+
+@media screen and (max-width : 1200px) {
+
+    .pro-dis,
+    .wordpress-champion {
+        text-align: center !important;
+    }
+
+    .col-width {
+        width: 100% !important;
+    }
+
+    .pro-dis {
+        font-size: 24px;
+        line-height: 34px;
+    }
+
+    .wordpress-champion {
+        font-size: 40px;
+        line-height: 50px;
+        margin: 10px 0;
+    }
+
+
+}
+
+@media screen and (max-width : 758px) {
+    .wordpress-champion {
+        font-size: 35px;
+        line-height: 45px;
+    }
+
+    .pro-dis {
+        font-size: 20px;
+        line-height: 30px;
+    }
+
+}
+
+@media screen and (max-width : 500px) {
+    .wordpress-champion {
+        font-size: 30px;
+        line-height: 40px;
+    }
+
+    .pro-dis {
+        font-size: 18px;
+        line-height: 25px;
+    }
+
+}

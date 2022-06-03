@@ -1,0 +1,80 @@
+section.BenefitsSection {
+    padding: 0 !important;
+}
+
+.benefits-image {
+    background-image: url('../../assests/Image/benifit-image.jpg');
+    background-position: center !important;
+    background-repeat: no-repeat !important;
+    background-size: cover !important;
+    width: 100%;
+}
+
+.BenefitsSection {
+    text-align: center;
+
+}
+
+.benefits-color {
+    background-color: #111111;
+    padding: 100px !important;
+}
+
+
+span.benefits-icon {
+    background: -webkit-linear-gradient(left, #3060e5 0%, #048eea 45%, #3ee09f 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    color: #3060e5 !important;
+    font-size: 64px;
+    display: inline-block;
+}
+
+h1.benefits-title {
+    font-size: 24px;
+    line-height: 34px;
+    font-weight: bold;
+    color: #ffffff;
+    margin: 25px 0 15px;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+.benefits-description {
+    font-size: 18px;
+    line-height: 28px;
+    font-family: "Source Sans Pro", sans-serif;
+    word-spacing: normal;
+    color: white;
+}
+
+
+.benefits-responsive-img {
+    padding-top: 150px !important;
+    padding-bottom: 150px !important;
+    background-image: url('../../assests/Image/benifit-image.jpg') !important;
+    background-position: center !important;
+    background-repeat: no-repeat !important;
+    background-size: cover !important;
+}
+
+
+@media screen and (max-width : 1400px) {
+    .benefits-color {
+        padding: 100px 70px !important;
+    }
+
+}
+
+@media screen and (max-width : 992px) {
+    .benefits-color {
+        padding: 100px 50px !important;
+    }
+
+}
+
+@media screen and (max-width : 500px) {
+    .benefits-color {
+        padding: 100px 30px !important;
+    }
+
+}

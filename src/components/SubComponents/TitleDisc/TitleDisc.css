@@ -1,0 +1,29 @@
+.TitleDisc .title {
+    text-align: center;
+    font-size: 18px;
+    line-height: 28px;
+    font-weight: normal;
+    color: #ffffff;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+.TitleDisc .dash-line {
+    border-bottom-width: 3px;
+    width: 50px;
+    margin: 0px auto;
+    display: block;
+    margin-top: 5px;
+    margin-bottom: 20px;
+    height: 3px;
+    background: linear-gradient(45deg, #3060e5 0%, #048eea 45%, #3ee09f 100%);
+}
+
+.TitleDisc .subtitle {
+    font-family: 'Source Sans Pro';
+    font-weight: 700;
+    color: #ffffff;
+    margin-bottom: 60px;
+    font-size: 32px;
+    line-height: 42px;
+    text-align: center;
+}

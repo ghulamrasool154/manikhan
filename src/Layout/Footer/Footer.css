@@ -1,0 +1,12 @@
+section.footer {
+    background-color: #111111;
+    padding: 25px 0;
+}
+
+section.footer .footer-bar p {
+    font-size: 14px;
+    line-height: 24px;
+    color: #777777;
+    margin-bottom: 0;
+    font-family: 'Source Sans Pro', sans-serif;
+}

@@ -1,0 +1,183 @@
+.abouttitle {
+    font-size: 50px;
+    line-height: 58px;
+    font-weight: 700;
+    margin-bottom: 25px;
+    color: #111111;
+    font-family: 'Josefin Sans', sans-serif;
+    text-align: start;
+}
+
+.aboutparagraph {
+    font-size: 28px;
+    line-height: 38px;
+    font-weight: normal;
+    color: #111111;
+    margin-bottom: 40px;
+    font-family: 'Source Sans Pro', sans-serif;
+    text-align: start;
+}
+
+.about {
+    margin: 100px 0;
+}
+
+.about-looking-details {
+    padding-right: 30px !important;
+}
+
+
+
+.about-designation-details {
+    padding-left: 25px;
+}
+
+.about .designation .designation-image {
+    width: 200px;
+    margin-right: 50px;
+    margin-bottom: 20px;
+
+}
+
+.about .designation .designation-image img {
+    width: 100%;
+    border-radius: 50%;
+
+}
+
+.about .designation .manikhan {
+    font-size: 32px;
+    line-height: 42px;
+    font-weight: bold;
+    font-family: 'Josefin Sans', sans-serif;
+    text-align: start;
+}
+
+.about .designation .webmaster {
+    font-size: 28px;
+    line-height: 38px;
+    color: #3060e5 !important;
+    background: -webkit-linear-gradient(left, #3060e5 0%, #048eea 45%, #3ee09f 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-align: start;
+}
+
+.about-designation-details .aboutmydetails {
+    font-size: 18px;
+    line-height: 28px;
+    font-family: 'Source Sans Pro', sans-serif;
+    word-spacing: normal;
+    color: #777777;
+    text-align: start;
+}
+
+
+
+
+/* responsive */
+
+
+
+@media screen and (max-width : 1200px) {
+    .abouttitle {
+        font-size: 45px;
+        line-height: 50px;
+    }
+
+    .aboutparagraph {
+        font-size: 25px;
+        line-height: 35px;
+    }
+}
+
+
+
+@media screen and (max-width : 992px) {
+
+    section {
+        padding: 0 50px;
+    }
+
+    .aboutparagraph,
+    .abouttitle {
+        text-align: center;
+    }
+
+    .about-looking-details {
+        margin-bottom: 50px;
+        text-align: center;
+    }
+
+    .designation {
+        flex-direction: column;
+    }
+
+
+    .about .designation .manikhan {
+        text-align: center;
+    }
+
+    .about-designation-details .aboutmydetails {
+        text-align: justify;
+    }
+
+
+}
+
+@media screen and (max-width : 700px) {
+
+    .abouttitle {
+        font-size: 34px;
+        line-height: 42px;
+    }
+
+    .aboutparagraph {
+        font-size: 18px;
+        line-height: 28px;
+    }
+}
+
+@media screen and (max-width : 500px) {
+    section {
+        padding: 0 30px;
+    }
+
+    .abouttitle {
+        font-size: 30px;
+        line-height: 40px;
+    }
+
+    /* menu responsive */
+    .menu-for-disktop {
+        display: none;
+    }
+
+    .menu-for-mobile {
+        position: fixed;
+        top: 0;
+        right: 0;
+        width: 100%;
+        height: 60px;
+        display: flex;
+        justify-content: space-between;
+        padding: 0 30px;
+        align-items: center;
+
+    }
+
+    .menu-for-mobile nav.navbarbutton {
+        position: absolute;
+        top: 0;
+    }
+
+    .section-navbar {
+        display: flex;
+        order: 1;
+    }
+
+    .about .designation .webmaster {
+        font-size: 22px;
+        text-align: center;
+    }
+}

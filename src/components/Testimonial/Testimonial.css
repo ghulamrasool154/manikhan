@@ -1,0 +1,90 @@
+section.tesimonial {
+    padding: 0 !important;
+}
+
+section.tesimonial .testimonila-left-side {
+    background-color: black;
+    padding: 100px !important;
+}
+
+.carousel-item img {
+    height: 250px;
+}
+
+.carousel-indicators {
+    margin-bottom: 0 !important;
+}
+
+.carousel-caption {
+    position: initial !important;
+}
+
+.carousel-item img {
+    height: 150px;
+    border-radius: 50%;
+}
+
+.carousel-img {
+    margin-bottom: 20px;
+}
+
+.testimonail_clinet_name {
+    color: #ffffff;
+    margin-bottom: 0px;
+    font-size: 20px;
+    line-height: 30px;
+    font-weight: bold;
+    font-family: 'Josefin Sans', sans-serif;
+    text-transform: capitalize;
+}
+
+.testimonail_clinet_content {
+    margin-bottom: 80px;
+    font-size: 20px;
+    line-height: 30px;
+    color: #ffffff;
+    background: none;
+    font-style: italic;
+    font-family: 'Source Sans Pro', sans-serif;
+    height: 100px
+}
+
+.testimonial-image {
+    background-image: url('../../assests/Image/testimonial.jpg');
+    background-position: center !important;
+    background-repeat: no-repeat !important;
+    background-size: cover !important;
+    width: 100%;
+}
+
+
+@media screen and (max-width : 1400px) {
+    section.tesimonial .testimonila-left-side {
+        padding: 100px 70px !important;
+    }
+}
+
+
+@media screen and (max-width : 992px) {
+    section.tesimonial .testimonila-left-side {
+        padding: 100px 50px !important;
+    }
+
+    .testimonial-image {
+        background-image: url('../../assests/Image/testimonial.jpg');
+        background-position: center !important;
+        background-repeat: no-repeat !important;
+        background-size: cover !important;
+        width: 100%;
+        padding-top: 150px !important;
+        padding-bottom: 150px !important
+    }
+
+}
+
+
+@media screen and (max-width : 500px) {
+    section.tesimonial .testimonila-left-side {
+        padding: 100px 30px !important;
+    }
+}

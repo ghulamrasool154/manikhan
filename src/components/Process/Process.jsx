@@ -25,7 +25,7 @@ const Process = () => {
                     <img src={value.icon} alt="" />
                   </div>
                   <div className="icon_list_item_content">
-                    <h1 className="heading">{value.title}</h1>
+                    <h4 className="heading">{value.title}</h4>
 
                     <p className="discription">{value.dec}</p>
                   </div>

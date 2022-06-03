@@ -17,7 +17,7 @@ const Benefit = () => {
                     <span className="benefits-icon">
                       <img src={value.icon} alt="" />
                     </span>
-                    <h1 className="benefits-title">{value.title}</h1>
+                    <h2 className="benefits-title">{value.title}</h2>
                     <p className="benefits-description">{value.desc} </p>
                   </div>
                 ))}

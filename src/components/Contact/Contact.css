@@ -50,7 +50,7 @@ input::placeholder {
     margin-bottom: 20px;
 }
 
-.contactme .box-section .text h1 {
+.contactme .box-section .text .titlttext {
     font-family: 'Source Sans Pro';
     font-weight: 700;
     color: #111111;

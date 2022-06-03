@@ -1,3 +1,7 @@
+header {
+    z-index: 99999;
+}
+
 .disktopmenu {
     position: fixed;
     top: 0;

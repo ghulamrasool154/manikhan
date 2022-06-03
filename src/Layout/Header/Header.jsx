@@ -12,7 +12,7 @@ const Header = () => {
     setToggle(!Toggle);
   };
   return (
-    <>
+    <header>
       <div className="disktopmenu">
         <div className="top">
           <div className="icon" onClick={_hanldeToggle}>
@@ -40,7 +40,7 @@ const Header = () => {
           <MobileNavigation Toggle={Toggle} _hanldeToggle={_hanldeToggle} />
         </div>
       </div>
-    </>
+    </header>
   );
 };
 

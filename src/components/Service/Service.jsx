@@ -23,11 +23,11 @@ const Service = () => {
                     <span className="service-icon">
                       <img src={value.icon} alt={value.title} />
                     </span>
-                    <h1 className="service-title">{value.title}</h1>
+                    <h3 className="service-title">{value.title}</h3>
                     <p className="service-paragraph">{value.para}</p>
                   </div>
                   <div className="service-box-back">
-                    <h1 className="service-title">{value.backtitle}</h1>
+                    <h3 className="service-title">{value.backtitle}</h3>
                     <p className="service-paragraph">{value.backpara}</p>
                   </div>
                 </div>

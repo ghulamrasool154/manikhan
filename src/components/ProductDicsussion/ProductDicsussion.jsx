@@ -11,15 +11,15 @@ const ProductDicsussion = () => {
       <div className="container-fluid">
         <div className="row py-4 align-items-center">
           <div className="col-width">
-            <h1 className="pro-dis">Let's Discuss Your Project Now!</h1>
+            <h4 className="pro-dis">Let's Discuss Your Project Now!</h4>
           </div>
           <div className="col-width">
-            <h1 className="wordpress-champion ">
+            <h4 className="wordpress-champion ">
               <span>
                 <i className="fa-brands fa-skype"></i>
               </span>
               WordPressChampion
-            </h1>
+            </h4>
           </div>
         </div>
 

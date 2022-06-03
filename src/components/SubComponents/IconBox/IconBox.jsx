@@ -7,9 +7,9 @@ const IconBox = (props) => {
           <img src={props.icon} alt={props.text} />
         </div>
         <div className="text">
-          <h1>
+          <h4 className="titlttext">
             {props.text} <br />
-          </h1>
+          </h4>
         </div>
       </div>
     </>

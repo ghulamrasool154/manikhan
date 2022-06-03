@@ -17,7 +17,7 @@ section.Portfolio .container-fluid {
     text-align: center;
 }
 
-h1.portfolio-name {
+h2.portfolio-name {
     font-size: 24px;
     line-height: 30px;
     color: black;
@@ -147,7 +147,27 @@ button.startProject {
     cursor: pointer;
 }
 
+@media screen and (max-width : 768px) {
+    .closeimgbox {
+        position: fixed;
+        top: 30px;
+        right: 0;
+        color: white;
+        font-size: 25px;
+        cursor: pointer;
+        background: #1f1c1c;
+        width: 50px;
+        line-height: 50px;
+    }
+
+}
+
 @media screen and (max-width : 600px) {
+
+    .closeimgbox {
+        top: 60px;
+    }
+
 
     .image_gallary_img {
         height: auto;

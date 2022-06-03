@@ -111,13 +111,12 @@ const Contact = () => {
           </div>
         </div>
         <div className="row mt-5">
-          <div className="col-lg-5">
+          <div className="col-lg-5 col-md-12 col-sm-12 ">
             <div className="contactme">
               <IconBox
                 // icon={<BiMap />}
                 icon={icon1}
-                text="	884-D Raja Chowk, Ghulam Muhammad Abad, 
-								Faisalabad 38000, Pakistan"
+                text="Faisalabad, Punjab, Pakistan"
               />
               <IconBox
                 icon={icon2}
@@ -137,7 +136,7 @@ const Contact = () => {
               />
             </div>
           </div>
-          <div className="col-lg-7">
+          <div className="col-lg-7 col-md-12 col-sm-12">
             <div className="contact-form text-start">
               {Object.keys(formErrors).length === 0 && isSubmit ? (
                 <b className="thankyou"> Thank You !.......</b>

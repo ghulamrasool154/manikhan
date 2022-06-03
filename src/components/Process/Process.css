@@ -2,7 +2,7 @@ section.ProcessStep {
     padding: 100px;
 }
 
-.icon_list_item .icon_list_item_content h1.heading {
+.icon_list_item .icon_list_item_content h4.heading {
     font-size: 24px;
     line-height: 34px;
     font-weight: bold;
@@ -18,7 +18,7 @@ section.ProcessStep {
 }
 
 .icon_list_item {
-    position: relative;
+    /* position: relative; */
     text-align: center;
 }
 

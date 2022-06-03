@@ -9,10 +9,6 @@ const Testimonial = () => {
       <div className="container-fluid">
         <div className="row">
           <div className="col-lg-6 col-md-12 col-sm-12 testimonila-left-side">
-            {/* <h2 className="benefits">TESTIMONIALS</h2>
-            <span className="dash-line"></span>
-            <h1 className="workwithme">What Clients Say About Me</h1> */}
-
             <TitleDisc
               title="TESTIMONIALS"
               subtitle="What Clients Say About Me"

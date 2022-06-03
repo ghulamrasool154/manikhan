@@ -8,9 +8,9 @@ const About = () => {
       <div className="container-fluid">
         <div className="row">
           <div className="col-lg-6 col-md-12 col-sm-12 about-looking-details">
-            <h1 className="abouttitle">
+            <h2 className="abouttitle">
               Hi! Looking for someone to build a website for you?
-            </h1>
+            </h2>
             <p className="aboutparagraph">
               Look no more! I can help to take your business to next level by
               offering best website development solutions because i know what to
@@ -32,7 +32,7 @@ const About = () => {
                 <img src={manbhai} alt="manikhan" />
               </div>
               <div>
-                <h1 className="manikhan">Mani Khan</h1>
+                <h2 className="manikhan">Mani Khan</h2>
                 <h2 className="webmaster">WebMaster, Programmer</h2>
               </div>
             </div>

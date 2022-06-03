@@ -59,7 +59,7 @@ const Portfolio = () => {
                     </div>
                   </div>
                   <div className="portfolio-title">
-                    <h1 className="portfolio-name">{value.name}</h1>
+                    <h2 className="portfolio-name">{value.name}</h2>
                   </div>
                 </div>
               </div>

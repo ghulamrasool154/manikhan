@@ -11,18 +11,20 @@ import Testimonial from "./components/Testimonial/Testimonial";
 import Contact from "./components/Contact/Contact";
 function App() {
   return (
-    <div className="content">
-      <Home />
-      <About />
-      <Benefit />
-      <Portfolio />
-      <Service />
-      <Process />
-      <Testimonial />
-      <Contact />
-      <Footer />
+    <>
       <Header />
-    </div>
+      <div className="content">
+        <Home />
+        <About />
+        <Benefit />
+        <Portfolio />
+        <Service />
+        <Process />
+        <Testimonial />
+        <Contact />
+        <Footer />
+      </div>
+    </>
   );
 }
 

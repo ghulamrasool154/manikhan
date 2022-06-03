@@ -12,6 +12,7 @@ section.Home {
     background-size: cover;
     height: 100vh;
     overflow: hidden;
+    z-index: -1;
 }
 
 .container-fluid.home-container {
@@ -66,7 +67,7 @@ video.video-background {
     filter: grayscale(100%);
 }
 
-.home-section-syle .into .about-me h1 {
+.home-section-syle .into .about-me .aboutmetitle {
     font-size: 30px;
     font-weight: 700;
     line-height: 40px;
@@ -194,7 +195,7 @@ video.video-background {
         min-width: 231px;
     }
 
-    .home-section-syle .into .about-me h1 {
+    .home-section-syle .into .about-me .aboutmetitle {
         font-size: 23px;
         line-height: 30px;
     }

@@ -126,8 +126,7 @@ const Contact = () => {
               <IconBox
                 icon={icon3}
                 // icon={<BiEnvelopeOpen />}
-                text="admin@itsmanikhan.com
-								khanattari7@gmail.com"
+                text="admin@itsmanikhan.com"
               />
               <IconBox
                 icon={icon4}

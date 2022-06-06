@@ -24,15 +24,16 @@ const NavigationDesktop = (props) => {
         </div>
         <div className="menubar">
           <ul>
-            {Navbar.map((e) => (
+            {Navbar.map((value) => (
               <>
-                <li className="nav-item" key={e.id}>
+                <li className="nav-item" key={`disktop${value.id}`}>
+                  {console.log(value.id)}
                   <Link
-                    to={e.path}
-                    className={e.clsname}
+                    to={value.path}
+                    className={value.clsname}
                     onClick={props._hanldeToggle}
                   >
-                    {e.name}
+                    {value.name}
                   </Link>
                 </li>
               </>

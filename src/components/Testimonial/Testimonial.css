@@ -46,7 +46,8 @@ section.tesimonial .testimonila-left-side {
     background: none;
     font-style: italic;
     font-family: 'Source Sans Pro', sans-serif;
-    height: 100px
+    height: 100px;
+    padding-top: 20px;
 }
 
 .testimonial-image {

@@ -7,12 +7,11 @@ import MobileNavigation from "../../components/SubComponents/Navigation/Mobile/M
 import bugicon from "../../assests/Image/bugicon.PNG";
 const Header = () => {
   const [Toggle, setToggle] = useState(false);
-
   const _hanldeToggle = () => {
     setToggle(!Toggle);
   };
   return (
-    <header>
+    <header className="header">
       <div className="disktopmenu">
         <div className="top">
           <div className="icon" onClick={_hanldeToggle}>

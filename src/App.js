@@ -12,8 +12,8 @@ import Contact from "./components/Contact/Contact";
 function App() {
   return (
     <>
-      <Header />
       <div className="content">
+        <Header />
         <Home />
         <About />
         <Benefit />

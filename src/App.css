@@ -54,6 +54,23 @@ button.loadMoreButton {
     margin-top: 50px
 }
 
+
+
+/* boot carousel */
+
+.carousel-indicators [data-bs-target] {
+    width: 20px !important;
+    height: 5px !important;
+    margin-right: 5px !important;
+    margin-left: 5px !important;
+    background-color: rgba(255, 255, 255, 0.6) !important;
+}
+.view-my-portfolio:hover{
+    cursor: pointer;
+}
+
+
+
 /* responsive */
 
 @media screen and (max-width : 1400px) {
@@ -63,11 +80,38 @@ button.loadMoreButton {
 
 }
 
+@media screen and (max-width : 1200px) {
+
+    .testimonila-left-side,
+    .benefits-color {
+        width: 65% !important;
+    }
+
+    .testimonial-image,
+    .benefits-image {
+        width: 35% !important;
+    }
+}
+
+
+
+
 @media screen and (max-width : 992px) {
 
     section {
         padding: 0 50px;
     }
+
+    .testimonila-left-side,
+    .benefits-color {
+        width: 100% !important;
+    }
+
+    .testimonial-image,
+    .benefits-image {
+        width: 100% !important;
+    }
+
 }
 
 

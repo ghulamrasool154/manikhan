@@ -18,18 +18,17 @@
 }
 
 .NavigationDesktop .desktopmenu {
-    transform: translateX(0);
     height: 100vh;
     background: white;
     padding: 30px 30px 30px 30px;
-    transition: 1s;
+    transition: 0.5s;
     position: absolute;
     right: 0;
     top: 0;
     width: 300px;
     display: flex;
     flex-flow: column nowrap;
-    overflow: scroll;
+    overflow-y: scroll;
 
 }
 

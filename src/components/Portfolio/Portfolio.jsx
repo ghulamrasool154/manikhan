@@ -78,12 +78,12 @@ const Portfolio = () => {
                 <div className="image_gallary">
                   <div className="image_gallary_img">
                     <img src={onimg.img} className="h-100 img-fluid" alt="" />
-                  </div>
-                  <div className="closeimgbox">
-                    <i
-                      className="fa-solid fa-xmark"
-                      onClick={() => setpopimg(!popimg)}
-                    ></i>
+                    <div className="closeimgbox">
+                      <i
+                        className="fa-solid fa-xmark"
+                        onClick={() => setpopimg(!popimg)}
+                      ></i>
+                    </div>
                   </div>
                 </div>
               </>
